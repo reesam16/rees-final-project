@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Final Project</title>
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="guestbook.css" />
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Funnel+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lexend+Giga:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <header>
+      <nav class="navbar">
+        <a href="#" class="icon">
+          <img src="assets-rw/logo.svg" class="nav-logo" alt="my logo" />
+        </a>
+        <ul class="nav-menu">
+          <li class="button">
+            <a href="guestbook.html" class="link">guestbook</a>
+          </li>
+          <li class="button">
+            <a href="#work" class="link">paintings</a>
+          </li>
+          <li class="button">
+            <a href="contact.html" target="_blank" class="link">contact</a>
+          </li>
+        </ul>
+
+        <div class="hamburger">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <div class="hero">
+        <div class="hero-container">
+          <img src="assets-rw/logo.svg" class="full-icon" alt="my logo" />
+          <h3 class="name">rees mortensen</h3>
+        </div>
+      </div>
+      <!-- gallery -->
+      <div class="grid-container">
+        <div class="c1 cont1">
+          <div class="slider-container">
+            <button class="prev-btn">❮</button>
+            <button class="next-btn">❯</button>
+
+            <div class="slider-window">
+              <div class="slider-track">
+                <img src="assets-rw/mcw1.jpg" alt="Painting 1" />
+                <img src="assets-rw/mcw2.jpg" alt="Painting 2" />
+                <img src="assets-rw/mcw3.jpg" alt="Painting 3" />
+                <img src="assets-rw/mcw4.jpg" alt="Painting 4" />
+                <img src="assets-rw/mcw5.jpg" alt="Painting 5" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="c2 cont2" id="work">
+          <a href="gallery1.html">
+            <h3>Valle Crucis</h3>
+            <p>c2</p>
+          </a>
+        </div>
+
+        <div class="c3 cont3">
+          <a href="gallery2.html">
+            <h3>Landscapes</h3>
+            <p>c3</p>
+          </a>
+        </div>
+      </div>
+
+      <section id="container">
+        <h3>What People Are Saying</h3>
+        <div id="home-submission-list"></div>
+        <div class="center-link">
+          <a href="guestbook.html" class="btn-primary">View All Comments</a>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="footer">
+        <div class="desc">
+          <h4>RAMWEB</h4>
+          <p>&#169; 2025 site by Rees.</p>
+        </div>
+        <ul>
+          <li><a href="index.html">home</a></li>
+          <li><a href="guestbook.html">guestbook</a></li>
+          <li><a href="index.html#work">paintings</a></li>
+          <li><a href="index.html#portrate">contact</a></li>
+          <li><a href="index.html#portrate">shop</a></li>
+        </ul>
+      </div>
+    </footer>
+    <script src="app.js"></script>
+  </body>
+</html>

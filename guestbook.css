@@ -1,0 +1,147 @@
+/* Guestbook Specific Styles */
+#guestbook-input {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 30px;
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+#guestbook-input h2{
+    margin-bottom: 10px;
+    color: #333;
+    font-family: "Funnel Sans", sans-serif;
+    font-weight: 100;
+}
+
+.input-group{
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.input-group label{
+    display: block;
+    margin-bottom: 10px;
+    font-weight: 500;
+    font-family: 'Inter', sans-serif;
+    font-size: .85em;
+}
+
+
+.input-group input, 
+.input-group textarea {
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    width: 100%; 
+    box-sizing: border-box; 
+}
+
+
+.input-group input:focus, 
+.input-group textarea:focus {
+    outline: none;
+    border-color: #6366f1;
+    box-shadow: 0 0 5px rgba(99, 102, 241, 0.3);
+}
+
+textarea {
+    min-height: 120px; /* Gives them room to write a note */
+    resize: vertical; /* Allows user to grow the box but not widen it */
+}
+
+
+#submission-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+
+
+.message-card h4 {
+    margin: 0 0 10px 0;
+    color: #1a202c;
+}
+
+.message-card p {
+    color: #4a5568;
+    line-height: 1.5;
+}
+
+.hidden {
+    display: none;
+}
+
+.button-container {
+    display: flex;
+    gap: 15px; /* Space between buttons */
+    margin-top: 10px;
+}
+
+/* Primary Button (Submit) */
+.btn-primary {
+    background-color: #6366f1;
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #4f46e5;
+}
+
+/* Danger Button (Clear) */
+.btn-danger {
+    background-color: #fee2e2; /* Light red background */
+    color: #dc2626; /* Dark red text */
+    padding: 12px 24px;
+    border: 1px solid #fecaca;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btn-danger:hover {
+    background-color: #fca5a5;
+    color: white;
+}
+
+#guestbook-feed {
+    max-width: 800px;
+    margin: 40px auto;
+}
+
+.message-card {
+    border-bottom: 1px solid #eee;
+    padding: 20px 0;
+}
+
+/* the "Post-it Note" look for cards */
+.message-card {
+    background: #fff;
+    border-left: 5px solid #6366f1;
+    margin-bottom: 15px;
+    padding: 15px 20px;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.05);
+}
+
+#home-submission-list {
+    max-width: 800px; /* Or whatever matches your paintings slider width */
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+#container h3{
+    margin-bottom: 10px;
+}
+.center-link, h3 {
+    text-align: center;
+    margin-top: 20px;
+}

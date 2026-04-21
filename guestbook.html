@@ -1,0 +1,118 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guestbook</title>
+
+    <link rel="stylesheet" href="style.css">
+    <!-- <link rel="stylesheet" href="guestbook.css"> -->
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Funnel+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend+Giga:wght@100..900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" ... />
+
+</head>
+
+
+
+<body>
+    <header>
+        <nav class="navbar">
+            <a href="index.html" class="icon">
+                <img src="assets-rw/logo.svg" class="nav-logo" alt="my logo">
+            </a>
+            <ul class="nav-menu">
+                <li class="button">
+                    <a href="index.html" class="link">home</a>
+                </li>
+                <li class="button">
+                    <a href="index.html#work" class="link">paintings</a>
+                </li>
+                <li class="button">
+                    <a href="contact.html" target="_blank" class="link">contact</a>
+                </li>
+            </ul>
+
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+
+        </nav>
+        
+
+    </header>
+
+    <main class="container">
+        <section id="guestbook-input">
+            <h2>Sign the Guestbook</h2>
+            <p>Leave a note about the artwork!</p>
+            
+            <form id="contact-form" novalidate> 
+                <div class="input-group">
+                    <label for="name">Your Name</label>
+                    <input type="text" id="name" placeholder="Name" required>
+                </div>
+    
+                <div class="input-group">
+                    <label for="message">Your Comment</label>
+                    <textarea id="message" placeholder="Pleas write commentent here." required></textarea>
+                </div>
+    
+                <input type="hidden" id="subject" value="Guestbook Entry">
+    
+                <div class="button-container">
+                    <button type="submit" class="btn-primary">Post Comment</button>
+                    <button type="button" id="clear-btn" class="btn-danger hidden">Wipe All Records</button>
+                </div>
+                
+                <div id="statusMessage"></div>
+            </form>
+        </section>
+    
+        <hr>
+    
+        <section id="guestbook-feed">
+            <h3>Public Notes</h3>
+            <div id="submission-list">
+                </div>
+        </section>
+    </main>
+
+
+
+   
+    <footer>
+        <div class="footer">
+            <div class="desc">
+                <h4>RAMWEB</h4>
+                <p> &#169; 2025 site by Rees.</p>
+            </div>
+            <ul>
+                <li> <a href="index.html">home</a> </li>
+                <li> <a href="index.html#about">about</a> </li>
+                <li> <a href="index.html#work">paintings</a> </li>
+                <li> <a href="index.html#portrate">contact</a> </li>
+                <li> <a href="index.html#portrate">shop</a> </li>
+            </ul>
+
+        </div>
+    </footer>
+    <script src="app.js"></script>
+    <script src="guestbook.js"></script>
+
+</body>
+
+</html>
