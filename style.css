@@ -289,6 +289,17 @@ h2{
     padding: 10em 2em;
     text-align: center;
 }
+.heading h3{
+    color: white;
+    font-weight: 100;
+    letter-spacing: 5px;
+     transition: color 0.4s ease, transform 0.4s ease;
+}
+
+.heading h3:hover{
+   color: #cdf9f9;
+   transform: scale(1.2);
+}
 /* end gallery */
 /* footer */
 .footer{
