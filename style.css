@@ -105,7 +105,7 @@ h2{
     padding: 0;
     height: 700px;
     max-width: 1200px;
-    border-radius: 10px;
+    /* border-radius: 10px; */
     /* box-shadow: inset 51px 5px 51px rgba(0, 0, 0, 0.128); */
     box-shadow: 2px 1px 15px rgba(0, 0, 0, 0.223);
     width: 100%;
@@ -117,11 +117,8 @@ h2{
     background: 
     linear-gradient(rgba(4, 239, 247, 0.128), transparent 80%), 
     linear-gradient(0deg,#f7f2e89b , transparent 90%), 
-    
-     url(assets-rw/moses-cone.png) no-repeat center,
-     rgba(0, 128, 68, 0.539)
-     ;
-
+    url(assets-rw/moses-cone.png) no-repeat center,
+    rgba(0, 128, 68, 0.539);
     background-size: cover;
     text-align: center;
 }
@@ -131,7 +128,6 @@ h2{
     align-items: center;
     justify-content: center;
     gap: .6em;
-   
 }
 .full-icon{
     height: 10em;
@@ -201,7 +197,6 @@ h2{
     padding: 2em 0;
     overflow: hidden; 
     width: 100%;
-    /* background: green; */
     background-color: #dbd7cf36;
 }
 
