@@ -47,7 +47,7 @@
 }
 
 textarea {
-    min-height: 120px; /* Gives them room to write a note */
+    min-height: 120px; /* Gives room to write a note */
     resize: vertical; /* Allows user to grow the box but not widen it */
 }
 
