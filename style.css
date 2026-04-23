@@ -288,7 +288,7 @@ h2{
     color: white;
     font-weight: 100;
     letter-spacing: 5px;
-     transition: color 0.4s ease, transform 0.4s ease;
+    transition: color 0.4s ease, transform 0.4s ease;
 }
 
 .heading h3:hover{
@@ -299,9 +299,7 @@ h2{
 
 /* comments */
 
-#container h3{
-    margin-bottom: ;
-}
+/*  */
 
 /* footer */
 .footer{

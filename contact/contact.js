@@ -37,7 +37,7 @@ contactForm.addEventListener('submit', (e) => {
     const ul = document.createElement('ul');
     let hasErrors = false;
 
-    //loop to find the errors
+    //loop to find the errors and creates a ul
     rules.forEach(rule => {
         if (!rule.isValid) {
             hasErrors = true;
@@ -55,7 +55,7 @@ contactForm.addEventListener('submit', (e) => {
     } else {
         // 2. Save the data since it's valid!
         const newSubmission = { name, email, subject, message };
-        //this adds submitino to the array
+        //this adds submissions to the array
         submissions.push(newSubmission);
 
         //using global obj localStorage to store 
