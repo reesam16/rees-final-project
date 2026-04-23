@@ -117,7 +117,7 @@ h2{
     background: 
     linear-gradient(rgba(4, 239, 247, 0.128), transparent 80%), 
     linear-gradient(0deg,#f7f2e89b , transparent 90%), 
-    url(assets-rw/moses-cone.png) no-repeat center,
+    url(assets-rw/vcp.png) no-repeat center,
     rgba(0, 128, 68, 0.539);
     background-size: cover;
     text-align: center;
@@ -296,6 +296,13 @@ h2{
    transform: scale(1.2);
 }
 /* end gallery */
+
+/* comments */
+
+#container h3{
+    margin-bottom: ;
+}
+
 /* footer */
 .footer{
     display: flex;

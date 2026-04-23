@@ -8,12 +8,12 @@
      background: 
     linear-gradient(rgba(4, 239, 247, 0.128), transparent 80%), 
     linear-gradient(0deg,#f7f2e89b , transparent 90%), 
-     url(../assets-rw/ncw10.jpg) no-repeat center,
+     url(../assets-rw/vcp-photo.jpg) no-repeat center,
      rgba(0, 128, 68, 0.539);
     max-width: 1200px;
-    background-size: 100% auto;
-    background-position: 50% 70%;
-    height: 300px; 
+    background-size: cover;
+    background-position: 50% 40%;
+    height: 400px; 
     margin: 10px auto;
     display: flex;
     align-items: center;
@@ -74,9 +74,9 @@
     justify-content: center;
     align-items: center;
     /* overflow: auto; */
- }
+}
 
- .lightbox-content{
+.lightbox-content{
     position: relative;
     max-width: 90%;
     max-height: 90vh;

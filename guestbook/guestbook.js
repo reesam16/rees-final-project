@@ -1,6 +1,7 @@
 // 1. Storage & Initialization
 let submissions = JSON.parse(localStorage.getItem('guestbookEntries')) || [];
 
+
 const contactForm = document.getElementById('contact-form');
 const statusMessage = document.getElementById('statusMessage');
 const listArea = document.getElementById('submission-list');
@@ -22,6 +23,7 @@ function renderSubmission() {
         card.className = 'message-card';
 
         // We only show Name and Message for the Guestbook
+        //MAKING the cards
         card.innerHTML = `
             <h4>${sub.name}</h4>
             <p>${sub.message}</p>
