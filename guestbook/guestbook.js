@@ -7,7 +7,7 @@ const statusMessage = document.getElementById('statusMessage');
 const listArea = document.getElementById('submission-list');
 const clearBtn = document.getElementById('clear-btn');
 
-// 2. The Render Function (Cleaned up for Guestbook)
+// 2. The Render Function (set up for Guestbook)
 function renderSubmission() {
     listArea.innerHTML = '';
 
